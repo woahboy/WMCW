@@ -5,7 +5,7 @@ locations: {}
 macros:
   Macro-1:
     id: "1"
-    macroString: ""
+    macroString: "1"
   Macro-SCALEFREE-DATAVAULT4COALESCE::1:
     id: SCALEFREE-DATAVAULT4COALESCE::1
     macroString: |+
@@ -446,8 +446,8 @@ packages:
   SCALEFREE-DATAVAULT4COALESCE:
     addedBy: TNkJiAjrrXb7e8IuNyIhYUnzjL92
     createdAt:
-      nanoseconds: 681000000
-      seconds: 1695754500
+      nanoseconds: 35000000
+      seconds: 1695754450
     id: SCALEFREE-DATAVAULT4COALESCE
     manifest:
       macros:
@@ -489,7 +489,7 @@ stepTypes:
     id: Dimension
     isDisabled: false
     metadata:
-      defaultStorageLocation: MART
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Dimension
@@ -952,7 +952,7 @@ stepTypes:
     id: Fact
     isDisabled: false
     metadata:
-      defaultStorageLocation: MART
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Fact
@@ -1171,7 +1171,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::12
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: PIT'
@@ -1364,7 +1364,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::13
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: SNAPSHOT V0'
@@ -1594,7 +1594,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::14
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: SNAPSHOT V1'
@@ -2012,7 +2012,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::4
     isDisabled: false
     metadata:
-      defaultStorageLocation: WORK
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: STAGE'
@@ -2145,7 +2145,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::6
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: HUB'
@@ -2290,7 +2290,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::7
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: LINK'
@@ -2425,7 +2425,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::8
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: SATELLITE V0'
@@ -2577,7 +2577,7 @@ stepTypes:
     id: SCALEFREE-DATAVAULT4COALESCE::9
     isDisabled: false
     metadata:
-      defaultStorageLocation: DV
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: 'DATAVAULT BY SCALEFREE: SATELLITE V1'
@@ -2690,7 +2690,7 @@ stepTypes:
     id: Stage
     isDisabled: false
     metadata:
-      defaultStorageLocation: WORK
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Stage
@@ -2895,7 +2895,7 @@ stepTypes:
     id: View
     isDisabled: true
     metadata:
-      defaultStorageLocation: WORK
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: View
@@ -2975,7 +2975,7 @@ stepTypes:
     id: persistentStage
     isDisabled: false
     metadata:
-      defaultStorageLocation: WORK
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Persistent Stage
